@@ -8794,12 +8794,39 @@ html.rd-navbar-fixed-linked .page {
   cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
 
+#BotonCotizador:hover {
+    background-color: #ff0000; /* Cambia el color de fondo al pasar el ratón */
+    color: #e20f0f; /* Cambia el color del texto al pasar el ratón */
+}
+
+
 #Boton2Cotizador{
-	background-color: #6bd1d4; /* Color de fondo del botón */
-    color: white; /* Color del texto */
-    border: 0.2rem solid #23bace; /* Borde con un color diferente */
-	border-radius: 0.5rem;
-	padding: 1.5em 1.5em;
-	cursor: pointer;
-	margin-left: 35px; /* Desplaza el botón hacia la izquierda */
+	border: 2px solid #007BFF; /* Color y grosor del borde */
+    padding: 10px 20px; /* Espacio interior (relleno) */
+    background-color: #FFFFFF; /* Color de fondo */
+    color: #007BFF; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    text-align: center; /* Centrar el texto horizontalmente */
+    display: inline-block; /* Asegura que el botón ajuste su tamaño al contenido */
+}
+
+#Boton2Cotizador:hover {
+    background-color: #ff0000; /* Cambia el color de fondo al pasar el ratón */
+    color: #e20f0f; /* Cambia el color del texto al pasar el ratón */
+}
+
+#Slogan{
+	text-align: left; /* Alinear el texto a la izquierda */
+	padding: 0px; /* Espacio interior opcional */
+    border: 0px solid #ccc; /* Borde opcional para visualizar el div */
+}
+
+
+
+#logo img {
+    max-width: 90%; /* Hace que el logo se ajuste al ancho del contenedor */
+
 }
