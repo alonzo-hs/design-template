@@ -473,8 +473,9 @@ a[href*='tel'], a[href*='mailto'] {
 
 .block-decorate-img img {
 	box-shadow: 1px 5px 27px 0px rgba(0, 0, 0, 0.09);
+	margin-top: 0px;
 }
-
+block-decorate-img
 /*
 * Boxes
 */
@@ -8830,4 +8831,9 @@ html.rd-navbar-fixed-linked .page {
 #logo img {
     max-width: 90%; /* Hace que el logo se ajuste al ancho del contenedor */
 
+}
+
+#imgservicios{
+	margin-top: 85px; /* Reduce el espacio entre el div y el borde superior */
+    padding-top: 0; /* Reduce el espacio interno en la parte superior del div */
 }
